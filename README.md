@@ -1,2 +1,87 @@
-# FranciscaConcss
-Curriculum con css
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francisca Pérez</title>
+</head>
+<body>
+
+    <style>
+        #Principal{
+            border: solid 1px black;
+            width: 80%;
+            margin: 0 auto;
+            padding: 5px;
+            font-family: cursive;
+        }
+
+        fieldset{
+            margin-bottom: 10px;
+            background-color: rgba(241, 233, 241, 0.534);
+        }
+
+        legend{
+            border: solid 1px rgb(218, 39, 218);
+            padding: 5px;
+            font-weight: 700;
+            border-radius: 20px;
+            background: rgba(250, 191, 225, 0.986);
+        }
+
+        #mifoto{
+            margin: 4px;
+            border: solid 2px rgb(218, 39, 218);
+            border-radius: 20%;
+        }
+
+        body{
+            background: url(img/fondo.jpg.jpeg);
+        }
+
+        li{
+           font-style: oblique;
+           font-size: 19px;
+           font-family: cursive;
+        }
+
+    </style>
+
+    <div id="Principal">
+        <img src="img/fotito.jpeg" id="mifoto" width="160px" height="230" align="left">
+        <h2>Francisca Amanda Pérez Castro</h2>
+
+         <br><br><br><br><br><br><br><br>
+         
+    <fieldset>
+        <legend>Contacto</legend>
+        <ul>
+            <li>Email: fperez.castr@gmail.com</li>
+            <li>Celular: +56949794435</li>
+            <li>Dirección: Calle doce A #1095, Peñalolén</li>
+            <li>Linkedin: <a href="https://www.linkedin.com/in/francisca-p%C3%A9rez-castro-730b45251/">Linkedin Francisca Pérez</a></li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>Sobre mi</legend>
+        <ul>
+            <LI>Estudiante de Ingeneria informática.</LI>
+            <LI>Me considero una persona responsable y ordenada.</LI>
+            <LI>Me destaco por mi desempeño relacionado al trabajo en equipo, proactividad, detallista y prudente.</LI>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>Experiencia laboral</legend>
+        <ul>
+            <li>EULEN SEGURIDAD:
+                Guardia al interior de la instalacion adidas lo boza.</li>
+            <li>FRUTERÍA LA MIREYITA: Ventas de Alimentos, atención al cliente, Apertura y cierre de Caja.</li> 
+            <li>CALL CENTER OUTBOUND: Venta de Servicio móvil.</li>
+        </ul>
+    </fieldset>
+
+    </div>
+    
+</body>
+</html>
